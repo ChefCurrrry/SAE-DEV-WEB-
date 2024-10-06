@@ -249,6 +249,13 @@ textarea {
 .custom-navbar {
   margin-top: 0px; /* Descend la div contenant la navbar de 50px */
 }
+/* Applique un style global : supprime les marges et les espacements par défaut pour tous les éléments */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
 
