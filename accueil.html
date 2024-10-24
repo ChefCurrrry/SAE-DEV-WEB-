@@ -5,6 +5,7 @@
   <title>Mutilés de la voix - Accueil</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Navbar.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,24 +15,27 @@
 
 <body>
 <!-- Div avec Logo ( lien vers page d'accueil + titre de l'association -->
-  <div class="custom-div d-flex align-items-center" style="height: 100px; margin-bottom: 10px; padding: 0 15px;">
+  <!--<div class="custom-div d-flex align-items-center" style="height: 100px; margin-bottom: 10px; padding: 0 15px;">
     <a href="accueil.html">
       <img src="img/logo-association.png" alt="Logo" style="height: 100px; margin-right: 10px; margin-top: 10px">
     </a>
     <p style="margin-top: 25px; font-size: 2em">Union des associations françaises de laryngectomisés et mutilés de la voix</p>
   </div>
+  -->
   <!-- Barre de navigation -->
-    <nav class="navbar navbar-expand-sm   navbar-light bg-light custom-navbar">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+    <nav class="navbar">
+      <div class="navbar-logo ">
+        <a href="accueil.html">
+          <img src="img/logo-association.png" alt="Logo">
+        </a>
+      </div>
       <div class="containerBouton">
+        <button class="navBouton" onclick="window.location.href='accueil.html';">Accueil</button>
         <button class="navBouton" onclick="window.location.href='Qui_sommes_nous.html';">Qui sommes nous ?</button>
         <button class="navBouton" onclick="window.location.href='Larynx.html';">Le cancer du larynx</button>
         <button class="navBouton" onclick="window.location.href='contact.html';">Contactez-nous</button>
       </div>
-  </nav>
+    </nav>
 
 
 <!-- Div avec vidéo YouTube et texte -->

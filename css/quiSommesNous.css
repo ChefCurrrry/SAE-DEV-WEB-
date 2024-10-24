@@ -36,7 +36,6 @@ body {
   color: black; /* Texte en noir */
   padding: 10px 15px; /* Espacement interne des boutons */
   font-size: 19px; /* Taille de la police des boutons */
-  border: none; /* Aucun bord par défaut */
   border-radius: 50px; /* Coins arrondis des boutons */
   cursor: pointer; /* Change le curseur au survol */
 }
@@ -120,28 +119,6 @@ h1 {
   display: flex; /* Utilise flexbox pour centrer horizontalement */
   justify-content: center; /* Centre les éléments */
 }
-
-/* Style pour les cercles
-.circle {
-  background-color: whitesmoke;  Fond gris clair
-  height: 250px;  Hauteur fixe
-  width: 250px;  Largeur fixe
-  border-radius: 50%; Cercle parfait avec bordure arrondie
-  margin: 20px;  Espace autour du cercle
-  border: 7px solid rgba(255, 67, 92, 0.71);  Bordure colorée
-  display: flex;  Utilise flexbox pour centrer le contenu
-  align-items: center;  Centre verticalement
-  justify-content: center;  Centre horizontalement
-  cursor: pointer;  Change le curseur au survol
-}
-*/
-/* Style pour le texte à l'intérieur des cercles
-.circle span {
-  text-align: center;  Texte centré horizontalement
-  color: #333;  Couleur du texte
-  font-size: 18px;  Taille du texte
-}
-*/
 
 /* Conteneur centré pour le texte */
 .container3 {
