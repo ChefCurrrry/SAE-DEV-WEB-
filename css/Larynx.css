@@ -30,21 +30,6 @@ body {
   margin-right: 80px; /* Espace à droite du conteneur */
 }
 
-/* Style des boutons dans la navbar */
-.navBouton {
-  background-color: white; /* Fond blanc pour les boutons */
-  color: black; /* Texte en noir */
-  padding: 10px 15px; /* Espacement interne des boutons */
-  font-size: 19px; /* Taille de la police des boutons */
-  border-radius: 50px; /* Coins arrondis des boutons */
-  cursor: pointer; /* Change le curseur au survol */
-}
-
-/* Style pour les boutons actifs */
-.active {
-  border: 2px solid red; /* Bordure rouge pour le bouton actif */
-}
-
 /* Espaceur pour créer un espacement vertical sous la navbar */
 .spacer {
   height: 170px; /* Hauteur de l'espace */

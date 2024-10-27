@@ -24,7 +24,7 @@
 }
 
 /* Style des boutons dans la navbar */
-.navBouton {
+.navBouton1 {
   background-color: white; /* Fond blanc pour les boutons */
   color: black; /* Texte en noir */
   padding: 10px 15px; /* Espacement interne des boutons */
@@ -33,10 +33,49 @@
   cursor: pointer; /* Change le curseur au survol */
   border: white;
 }
-
-
-/* Style pour les boutons actifs */
-.active {
-  border: 2px solid red; /* Bordure rouge pour le bouton actif */
+.navBouton1:hover{
+  background-color: #f4a721;
+  color: white;
 }
+.navBouton2 {
+  background-color: white; /* Fond blanc pour les boutons */
+  color: black; /* Texte en noir */
+  padding: 10px 15px; /* Espacement interne des boutons */
+  font-size: 19px; /* Taille de la police des boutons */
+  border-radius: 50px; /* Coins arrondis des boutons */
+  cursor: pointer; /* Change le curseur au survol */
+  border: white;
+}
+.navBouton2:hover{
+  background-color: red;
+  color: white;
+}
+.navBouton3 {
+  background-color: white; /* Fond blanc pour les boutons */
+  color: black; /* Texte en noir */
+  padding: 10px 15px; /* Espacement interne des boutons */
+  font-size: 19px; /* Taille de la police des boutons */
+  border-radius: 50px; /* Coins arrondis des boutons */
+  cursor: pointer; /* Change le curseur au survol */
+  border: white;
+}
+.navBouton3:hover{
+  background-color: deepskyblue;
+  color: white;
+}
+.navBouton4 {
+  background-color: white; /* Fond blanc pour les boutons */
+  color: black; /* Texte en noir */
+  padding: 10px 15px; /* Espacement interne des boutons */
+  font-size: 19px; /* Taille de la police des boutons */
+  border-radius: 50px; /* Coins arrondis des boutons */
+  cursor: pointer; /* Change le curseur au survol */
+  border: white;
+}
+.navBouton4:hover{
+  background-color: green;
+  color: white;
+}
+
+
 
