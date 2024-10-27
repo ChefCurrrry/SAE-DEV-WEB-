@@ -17,26 +17,6 @@ body {
   color: #333;
 }
 
-/* Barre de navigation */
-.navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.navBouton {
-  background-color: #00bfff;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 0 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.navBouton:hover {
-  background-color: #009fdc;
-}
 
 /* Section contact */
 .contact-header {
