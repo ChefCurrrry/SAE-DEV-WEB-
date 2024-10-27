@@ -1,0 +1,53 @@
+
+/* Supprime les marges par défaut du body */
+body {
+  margin: 0; /* Pas de marges par défaut */
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  position: fixed; /* Fixe la navbar en haut de la page */
+  top: 0; /* Positionnée en haut */
+  width: 100%; /* Occupe toute la largeur de l'écran */
+  background-color: white; /* Couleur de fond blanche */
+  display: flex; /* Utilise flexbox pour organiser les éléments horizontalement */
+  justify-content: space-between; /* Espace entre les éléments de la navbar */
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 15px 20px; /* Espacement interne autour des éléments de la navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile sous la navbar */
+}
+
+/* Style du logo dans la navbar */
+.navbar-logo img {
+  height: 100px; /* Hauteur fixe pour le logo */
+  margin-left: 120px; /* Espace à gauche du logo */
+}
+
+/* Conteneur pour les boutons dans la navbar */
+.containerBouton {
+  display: flex; /* Utilise flexbox pour organiser les boutons horizontalement */
+  gap: 15px; /* Espace entre chaque bouton */
+  margin-right: 80px; /* Espace à droite du conteneur */
+}
+
+/* Style des boutons dans la navbar */
+.navBouton {
+  background-color: white; /* Fond blanc pour les boutons */
+  color: black; /* Texte en noir */
+  padding: 10px 15px; /* Espacement interne des boutons */
+  font-size: 19px; /* Taille de la police des boutons */
+  border-radius: 50px; /* Coins arrondis des boutons */
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Style pour les boutons actifs */
+.active {
+  border: 2px solid red; /* Bordure rouge pour le bouton actif */
+}
+
+/* Espaceur pour créer un espacement vertical sous la navbar */
+.spacer {
+  height: 170px; /* Hauteur de l'espace */
+  background-color: white; /* Fond blanc */
+}
+
