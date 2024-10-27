@@ -77,5 +77,9 @@
   color: white;
 }
 
-
+/* Espaceur pour créer un espacement vertical sous la navbar */
+.spacer {
+  height: 170px; /* Hauteur de l'espace */
+  background-color: white; /* Fond blanc */
+}
 
