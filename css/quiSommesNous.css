@@ -1,211 +1,156 @@
-
 /* Supprime les marges par défaut du body */
 body {
-  margin: 0; /* Pas de marges par défaut */
+  margin: 0;
 }
 
 /* Espaceur pour créer un espacement vertical sous la navbar */
 .spacer {
-  height: 170px; /* Hauteur de l'espace */
-  background-color: white; /* Fond blanc */
+  height: 170px;
+  background-color: white;
 }
 
 /* Conteneur principal */
 .container {
-  display: flex; /* Utilise flexbox pour aligner les éléments horizontalement */
-  justify-content: space-between; /* Espace entre les éléments */
-  align-items: center; /* Centre verticalement les éléments */
-  background-color: #ECF1F5; /* Couleur de fond */
-  padding: 30px 20px; /* Espacement interne */
-  margin-top: 100px; /* Espace pour que le contenu ne soit pas masqué par la navbar */
-  text-align: left; /* Texte aligné à gauche */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ECF1F5;
+  padding: 30px 20px;
+  margin-top: 100px;
 }
 
 /* Style pour les titres h1 */
 h1 {
-  font-size: 3rem; /* Grande taille pour le titre */
-  padding-bottom: 70px; /* Espace en bas du titre */
-  padding-top: 70px; /* Espace en haut du titre */
+  font-size: 3rem;
+  margin: 70px 0;
 }
 
 /* Style pour le contenu textuel */
 .text-content {
-  font-size: 27px; /* Taille du texte */
-  max-width: 40%; /* Limite la largeur du texte */
-  margin-right: 20px; /* Espace entre le texte et l'image */
-  padding-left: 120px; /* Espace à gauche du texte */
+  font-size: 27px;
+  max-width: 40%;
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Ajout d'un espace entre le texte et le bouton */
 }
 
 /* Style pour le bouton avec l'ID enSP */
 #enSP {
-  margin-top: 30px; /* Espace en haut du bouton */
-  margin-bottom: 40px; /* Espace en bas du bouton */
-  padding: 20px 20px; /* Espacement interne du bouton */
-  background-color: #FF435C; /* Couleur de fond rouge */
-  color: white; /* Texte en blanc */
-  border: none; /* Pas de bordure */
-  border-radius: 20px; /* Coins arrondis du bouton */
-  cursor: pointer; /* Change le curseur au survol */
-  font-size: 17px; /* Taille du texte */
+  padding: 20px 20px;
+  background-color: #FF435C;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  align-self: flex-start;
 }
 
 /* Conteneur pour les images */
 .image-container {
-  padding-right: 150px; /* Espace à droite du conteneur */
-  overflow: hidden; /* Empêche l'image de déborder */
-  height: 500px; /* Hauteur fixe du conteneur */
-  width: auto; /* Largeur automatique */
+  overflow: hidden;
+  height: 500px;
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
 }
 
 /* Style pour les images d'équipe */
 .photoEquipe {
-  height: 100%; /* Remplit la hauteur du conteneur */
-  width: 100%; /* Remplit la largeur du conteneur */
-  border-radius: 30px; /* Coins arrondis de l'image */
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
 }
 
 /* Style pour le deuxième titre */
 .second-title {
-  font-size: 3rem; /* Grande taille pour le titre secondaire */
-  color: black; /* Couleur noire */
-  margin-top: 20px; /* Espace au-dessus du titre */
-  margin-bottom: 10px; /* Espace en-dessous du titre */
-  text-align: center; /* Texte centré */
+  font-size: 3rem;
+  color: black;
+  margin: 20px 0 10px;
+  text-align: center;
 }
 
 /* Conteneur pour centrer le contenu */
-.container2 {
-  display: flex; /* Utilise flexbox pour centrer horizontalement */
-  justify-content: center; /* Centre les éléments */
+.containerCircles {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
 }
 
 /* Conteneur centré pour le texte */
 .container3 {
-  display: flex; /* Utilise flexbox pour centrer horizontalement */
-  justify-content: center; /* Centre les éléments */
-  align-items: center; /* Centre verticalement */
-  text-align: center; /* Texte centré */
-  padding: 20px; /* Espacement interne */
-  margin: 0 auto; /* Centrage automatique du conteneur */
-  max-width: 900px; /* Limite la largeur maximale */
-  height: auto; /* Hauteur automatique */
-  padding-bottom: 200px; /* Grand espace en bas */
-  padding-top: 100px; /* Grand espace en haut */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 100px auto 200px;
 }
 
 /* Conteneur caché par défaut (peut être affiché via JS) */
 #aDecouvrir {
-  display: none; /* Caché par défaut */
-  max-width: 500px; /* Limite la largeur maximale */
+  display: none;
+  max-width: 500px;
 }
 
 /* Conteneur pour les chiffres */
 .containerChiffre {
-  display: flex; /* Utilise flexbox pour centrer horizontalement */
-  justify-content: center; /* Centre les éléments */
-  margin-top: 60px; /* Espace au-dessus */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espace entre les blocs de chiffres */
+  margin-top: 60px;
 }
 
 /* Style pour chaque bloc de chiffre */
 .num {
-  background-color: whitesmoke; /* Fond gris clair */
-  height: 150px; /* Hauteur fixe */
-  width: 150px; /* Largeur fixe */
-  margin: 20px; /* Espace autour du bloc */
-  display: flex; /* Utilise flexbox pour centrer le contenu */
-  align-items: center; /* Centre verticalement */
-  justify-content: center; /* Centre horizontalement */
-  font-size: 39px; /* Grande taille de texte pour les chiffres */
+  background-color: whitesmoke;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+  border-radius: 8px;
 }
 
-.circle1 {
+/* Style pour les cercles */
+.circle1, .circle2, .circle3, .circle4 {
   width: 200px;
   height: 200px;
-  border: 4px solid white; /* Bordure rouge */
-  border-radius: 50%; /* Pour rendre le bouton circulaire */
+  border: 4px solid white;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white; /* Fond blanc */
+  background-color: white;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de relief */
-  transition: transform 0.2s; /* Effet de zoom au survol */
-  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
-.circle1:hover {
-  transform: scale(1.05); /* Légèrement plus grand au survol */
-  border-color: #ff4d4d;
-}
-.circle2 {
-  width: 200px;
-  height: 200px;
-  border: 4px solid white; /* Bordure rouge */
-  border-radius: 50%; /* Pour rendre le bouton circulaire */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white; /* Fond blanc */
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de relief */
-  transition: transform 0.2s; /* Effet de zoom au survol */
-  margin: 20px;
-}
+.circle1:hover { border-color: #ff4d4d; transform: scale(1.05); }
+.circle2:hover { border-color: #00D3FF; transform: scale(1.05); }
+.circle3:hover { border-color: #3fa77d; transform: scale(1.05); }
+.circle4:hover { border-color: #f4a721; transform: scale(1.05); }
 
-.circle2:hover {
-  transform: scale(1.05); /* Légèrement plus grand au survol */
-  border-color:#00D3FF;
-}
-.circle3 {
-  width: 200px;
-  height: 200px;
-  border: 4px solid white; /* Bordure rouge */
-  border-radius: 50%; /* Pour rendre le bouton circulaire */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white; /* Fond blanc */
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de relief */
-  transition: transform 0.2s; /* Effet de zoom au survol */
-  margin: 20px;
-}
-
-.circle3:hover {
-  transform: scale(1.05); /* Légèrement plus grand au survol */
-  border-color: #3fa77d;
-}
-.circle4 {
-  width: 200px;
-  height: 200px;
-  border: 4px solid white; /* Bordure rouge */
-  border-radius: 50%; /* Pour rendre le bouton circulaire */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white; /* Fond blanc */
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de relief */
-  transition: transform 0.2s; /* Effet de zoom au survol */
-  margin: 20px;
-}
-
-.circle4:hover {
-  transform: scale(1.05); /* Légèrement plus grand au survol */
-  border: 4px solid #f4a721; /* Bordure rouge */
-}
+/* Style des icônes */
 .icon {
   background-color: white;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon img {
-  width: 40px; /* Taille de l'image */
-  height: 40px; /* Taille de l'image*/
+  width: 40px;
+  height: 40px;
 }
 
 .text {
@@ -215,13 +160,7 @@ h1 {
   color: black;
   margin-top: 5px;
 }
-#output {
-  transition: opacity 0.5s ease-in-out;
-}
 
-.fade {
-  opacity: 0.2;
-}
 #output {
   transition: opacity 0.5s ease-in-out;
 }
