@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .navbar {
   position: fixed; /* Fixe la navbar en haut de la page */
   top: 0; /* Positionnée en haut */
